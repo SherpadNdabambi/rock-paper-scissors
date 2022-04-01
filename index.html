@@ -20,10 +20,55 @@
 
 	<div id="wrapper" class="container">
 			
-						
+		<div class="centre container">
 
-			<!--Footer-->
-			<footer id="footer"></footer>
+			<h1>Rock Paper Scissors Game</h1>
+
+		</div>
+
+		<div class="centre container">
+
+			SCORE: <span id="score">0</span>
+
+		</div>
+
+		<div class="centre container">
+			
+			Choose a button below:
+
+		</div>
+
+		<div id="buttonContainer" class="centre container">
+
+			<button id="rockButton" class="left" onclick="play('rock')">✊</button>
+			<label for="rockButton"></label>
+
+			<button id="paperButton" class="centre" onclick="play('paper')">🖐</button>
+			<label for="paperButton"></label>
+
+			<button id="scissorsButton" class="right" onclick="play('scissors')">✌</button>
+			<label for="scissorsButton"></label>
+
+		</div>
+
+		<div class="centre container">
+			
+			<table class="align-centre" id="resultTable">
+				
+				<tr>
+					<td id="playerName"></td>
+				</tr>
+
+				<tr>
+					<td>CPU</td>
+				</tr>
+
+			</table>
+
+		</div>
+
+		<!--Footer-->
+		<footer id="footer"></footer>
 
 	</div>
 
