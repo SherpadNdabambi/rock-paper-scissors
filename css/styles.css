@@ -2,10 +2,19 @@
 	box-sizing: border-box;
 }
 
+.align-center{
+	text-align: center;
+}
+
+.align-center *{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 body{
 	margin: auto;
 }
 
-div.container{
+.container{
 	position: relative;
 }
