@@ -6,7 +6,7 @@ function play(playerHand){
     let cpuHand = hands[index];
     let result;
 
-    if(cpuHand === playerHand) result = "Draw";
+    if(cpuHand === playerHand) result = "Draw.";
     else{
         switch(playerHand){
             case '✊':
