@@ -35,7 +35,7 @@ function play(playerHand){
                     if(score > 0) score--;
                 }
                 else{
-                    result = "Paper covers rock. Player wins.";
+                    result = "Scissors cuts paper. Player wins.";
                     score++;
                 }
         }
